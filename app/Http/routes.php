@@ -11,8 +11,6 @@
 |
 */
 
-require_once "/home/vagrant/Code/txtcmdr/vendor/telerivet/telerivet-php-client/telerivet.php";
-
 Route::get('/', function () {
     return view('welcome');
 });
