@@ -11,6 +11,8 @@
 |
 */
 
+//namespace Telerivet;
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -19,7 +21,10 @@ get('test', function () {
     return 'test';
 });
 
+
+
 get('info', function () {
+/*
     $API_KEY = 'rnZKLkpBb3396YspUH9PReFRy4lh4bFw';           // from https://telerivet.com/api/keys
     $PROJECT_ID = 'PJf3e398e4fb9f4a07';
 
@@ -73,6 +78,6 @@ get('info', function () {
             'precinct_id' => '0014A'
         )
     ));
-
+*/
     phpinfo();
 });
