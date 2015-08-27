@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5c6026b96e6fa11a641b51a6ba976f5e",
+    "hash": "6185748a245b53535d194ec6fe8f7c37",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1647,6 +1647,32 @@
                 "dump"
             ],
             "time": "2015-07-28 15:18:12"
+        },
+        {
+            "name": "telerivet/telerivet-php-client",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Telerivet/telerivet-php-client.git",
+                "reference": "f79c39b45cdd4ea21bb0ae64c21bb9c4bdca69fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Telerivet/telerivet-php-client/zipball/f79c39b45cdd4ea21bb0ae64c21bb9c4bdca69fb",
+                "reference": "f79c39b45cdd4ea21bb0ae64c21bb9c4bdca69fb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHP client library for Telerivet REST API",
+            "homepage": "https://telerivet.com/api",
+            "time": "2014-07-10 23:06:03"
         },
         {
             "name": "vlucas/phpdotenv",
